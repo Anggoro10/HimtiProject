@@ -35,24 +35,23 @@ const Events = () => {
                 </div>
 
                 {/* kolom kanan */}
-                <div className='grid justify-end'>
-                    <div className='place-items-center'>
-                        <img src={Santai} alt="" className='w-[60%]'/>
+                <div className=''>
+                    <div className='grid gap-20 place-items-center'>
+                        <img src={Santai} alt="" className='w-[70%]'/>
                     </div>
 
-                    <div className='grid justify-end mb-10'>
-                        <div className='flex gap-2 font-bold text-4xl justify-center relative'>
-                            <h1 className='font-semibold text-[#2749AD]'>International Study Tour</h1>
+                    <div className='grid justify-start mt-6 text-[#3974D3] text-xl text-right'>
+                    <h1 className='text-3xl text-[#4C64AB] font-bold'>International Study Tour</h1>
+                    <div className="w-full h-12  font-extrabold text-2xl">_____________</div>
+                        
+                        <div className='mb-10'>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed </p>
+                                <p>do eiusmod tempor incididunt ut labore et dolore magna </p>
+                                <p>aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                                <p>ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            </div>
+         
                         </div>
-
-                        <div className='flex justify-around relative bottom-[80px]'>
-                            <div className='border-b-4 border-[#4DA9E5] relative left-[85px] w-[222px] mt-4'></div>
-                        </div>
-
-                        <div className='items-center text-center mr-[120px] relative bottom-[65px] text-[#3A75D4] text-xl'>
-                            <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                        </div>
-                    </div>
 
                 </div>
                 
